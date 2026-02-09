@@ -17,28 +17,28 @@
 
 #up there 👆 we used parameters or arguments in the code which is "to" and in to the name is assisined.
 
-# def hello(to="world"): 
-#     print("hello, ",to)
+def hello(to="world"): 
+    print("hello, ",to)
 
-# hello()
+hello()
 
-# name = input("What's your name? ")   
+name = input("What's your name? ")   
 
-# hello(name)
-# hello(name)
-# hello(name)
-# hello(name)
-# hello(name)
+hello(name)
+hello(name)
+hello(name)
+hello(name)
+hello(name)
 
 #up there 👆 is the same code but in this we have a default value set for "to" which is World.
 
-def main():
-    name = input ("What's your name? ")
-    hello(name)
+# def main():
+#     name = input ("What's your name? ")
+#     hello(name)
 
 
-def hello(to):
-    print("hello, ", to)
+# def hello(to):
+#     print("hello, ", to)
 
 
-main()
+# main()
